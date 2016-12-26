@@ -1,5 +1,5 @@
 {
-    "name": "LoginBase",
+    "name": "SiteBase",
     "require": {
         "cakephp/cakephp": "2.8.*",
         "cakephp/debug_kit": "^2.2.0",
