@@ -45,9 +45,6 @@ class UsersController extends AppController {
      *
      * @return void
      */
-    public function home() {
-        
-    }
 
     public function index() {
         $this->User->recursive = 0;
@@ -142,7 +139,7 @@ class UsersController extends AppController {
 
             if ($this->Auth->login()) {
 
-                $this->redirect(['controller' => 'users', 'action' => 'home']);
+                $this->redirect(['controller' => 'admins', 'action' => 'index']);
             }
 
             $this->Flash->error('Username or password is incorrect');
