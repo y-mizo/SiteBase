@@ -2,7 +2,7 @@
 
     <div class="navbar-header">
         <!--Logo-->
-        <a class="navbar-brand" href="/">LoginBase</a>
+        <a class="navbar-brand" href="/">SiteBase</a>
         <!--toggle button-->
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-content">
             <span class="icon-bar"></span>

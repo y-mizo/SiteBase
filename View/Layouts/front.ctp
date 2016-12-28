@@ -3,7 +3,7 @@
 <html>
     <head>
         <title>
-            LoginBase |
+            SiteBase |
             <?php echo $this->fetch('title'); ?>
         </title>
         <?php
