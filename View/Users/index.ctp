@@ -17,7 +17,7 @@
     <div class="users index">
         <h2><?php echo __('Users index'); ?></h2>
         <?php if ($currentUser['role'] === 'admin') : ?>
-        <?php echo $this->Html->link(__('add new user'), array('action' => 'add', $user['User']['id']), ['class' => 'btn btn-primary btn-success']); ?>
+        <?php echo $this->Html->link(__('add new user'), array('action' => 'add'), ['class' => 'btn btn-primary btn-success']); ?>
             <p class="text-right"><?php // echo $this->Html->link(__('Add New User'), array('action' => 'add')); ?></p>
         <?php endif; ?>
         <div class="table-responsive">

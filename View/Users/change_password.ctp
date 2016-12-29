@@ -37,7 +37,7 @@ echo $this->Form->create('User', array(
         <?= $this->Form->hidden('id'); ?>
     <?php endif; ?>
     <?php
-    echo $this->Form->submit($submitLabel, array(
+    echo $this->Form->submit('submit', array(
         'div' => 'form-group',
         'class' => 'btn btn-primary'
     ));
