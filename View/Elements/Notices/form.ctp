@@ -29,7 +29,7 @@
     <?php if (!empty($this->request->data)) : ?>
         <?= $this->Form->hidden('id'); ?>
     <?php endif; ?>
-    <!--$this->Form->input($submitLabel, ['action'=> 'add', 'type' => 'submit', 'class' => 'btn btn-primary']);-->
-    <?= $this->Form->end($submitLabel); ?>
+    <?= $this->Form->input($submitLabel, ['controller' => 'notices', 'action'=> 'add', 'type' => 'submit', 'class' => 'btn btn-primary', 'label' => false]); ?>
+    
 
 </form>
