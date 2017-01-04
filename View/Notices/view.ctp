@@ -12,10 +12,6 @@
             <td><?= h($notice['Notice']['modified']); ?></td>
         </tr>
         <tr>
-            <td><strong>カテゴリ</strong></td>
-            <td><?= $notice['Notice']['category']; ?></td>
-        </tr>
-        <tr>
             <td><strong>タイトル</strong></td>
             <td><?= $notice['Notice']['subject']; ?></td>
         </tr>

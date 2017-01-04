@@ -25,12 +25,6 @@ class CreateNoticesTable extends CakeMigration {
                         'length' => 10,
                         'key' => 'primary',
                     ],
-                    'category' => [
-                        'type' => 'string',
-                        'null' => false,
-                        'default' => null,
-                        'length' => 100,
-                    ],
                     'subject' => [
                         'type' => 'string',
                         'null' => false,
