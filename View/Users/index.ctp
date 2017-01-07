@@ -17,7 +17,7 @@
     <div class="users index">
         <h2><?php echo __('Users index'); ?></h2>
         <?php if ($currentUser['role'] === 'admin') : ?>
-        <?php echo $this->Html->link(__('add new user'), array('action' => 'add', $user['User']['id']), ['class' => 'btn btn-primary btn-success']); ?>
+        <?php echo $this->Html->link(__('add new user'), array('action' => 'add'), ['class' => 'btn btn-primary btn-success']); ?>
             <p class="text-right"><?php // echo $this->Html->link(__('Add New User'), array('action' => 'add')); ?></p>
         <?php endif; ?>
         <div class="table-responsive">
@@ -65,13 +65,9 @@
                 'format' => __('Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}')
             ));
             ?>	</p>-->
-        <div class="paging">
-            <ul class="pager">
-            <li><?php echo $this->Paginator->prev('< ' . __('previous'), array(), null, array('class' => 'prev disabled')); ?></li>
-            <li><?php echo $this->Paginator->numbers(array('separator' => '')); ?></li>
-            <li><?php echo $this->Paginator->next(__('next') . ' >', array(), null, array('class' => 'next disabled')); ?></li>
-                </ul>
-        </div>
+        <div style="text-align: center">                         
+            <?= $this->element('pagination'); ?>                                        
+        </div> 
     </div>
 
     

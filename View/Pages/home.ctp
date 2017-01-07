@@ -10,8 +10,8 @@
 
 <?php $this->assign('title', 'Top'); ?>
 <?php $this->start('title_area'); ?>
-<h1>LoginBase</h1>
-<p>ログインを必要とするサイトの雛形サイト</p>
+<h1>SiteBase</h1>
+<p>ログインを必要とするサイトの雛形サイト(お知らせページつき)</p>
 <?php $this->end(); ?>
 
 

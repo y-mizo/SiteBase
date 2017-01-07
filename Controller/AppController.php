@@ -25,7 +25,7 @@ class AppController extends Controller {
 
     public function beforeFilter() {
         $this->set('currentUser', $this->Auth->user());
-        $this->Auth->allow('login');
+        $this->Auth->allow('login','index_front');
     }
 
     public $components = [
@@ -60,8 +60,8 @@ class AppController extends Controller {
                 'Controller'
             ],
             'loginRedirect' => [
-                'controller' => 'users',
-                'action' => 'home'
+                'controller' => 'admins',
+                'action' => 'index'
             ],
             'logoutRedirect' => [
                 'controller' => 'pages',
