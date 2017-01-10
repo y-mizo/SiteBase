@@ -17,7 +17,7 @@
         </tr>
         <tr>
             <td><strong>内容</strong></td>
-            <td><?= $notice['Notice']['body']; ?></td>
+            <td><?= $notice_body; ?></td>
         </tr>
 
 </table>

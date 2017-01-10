@@ -39,8 +39,12 @@ class NoticesController extends AppController {
         if (!$this->Notice->exists($id)) {
             throw new NotFoundException('お知らせは見つかりません');
         }
-        
-        $this->set('notice', $this->Notice->findById($id));
+        $notice = $this->Notice->findById($id);
+//        echo var_dump($notice); 
+//        echo nl2br($notice['Notice']['body']);
+//        exit;
+        $this->set('notice_body', nl2br($notice['Notice']['body']));  // 改行表示
+        $this->set('notice', $notice);
         
     }
     
