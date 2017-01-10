@@ -18,23 +18,14 @@
             <li><?= $this->Html->link('Page2', ['controller' => 'pages', 'action' => 'page2']); ?></li>
             <li><?= $this->Html->link('Page3', ['controller' => 'pages', 'action' => 'page3']); ?></li>
             <li><?= $this->Html->link('Notices', ['controller' => 'notices', 'action' => 'index_front']); ?></li>
+            <li><?= $this->Html->link('Contact', ['controller' => 'contacts', 'action' => 'contact']); ?></li>
         </ul>
 
         <!--dropdown list-->                  
         <ul class="nav navbar-nav navbar-right">    
-            <?php if ($currentUser) : ?>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?= $currentUser['username'] ?><span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><?= $this->Html->link('Admin Page', ['controller' => 'admins', 'action' => 'index']); ?></li>
-                        <li><?= $this->Html->link('Change Password', ['controller' => 'users', 'action' => 'changePassword']); ?></li>
-                        <li><?= $this->Html->link('Logout', ['controller' => 'users', 'action' => 'logout']); ?></li>
-                    </ul>   
-                </li>
-            <?php else : ?>
-                <li class="divider"></li>
+            
                 <li><?= $this->Html->link('Login', ['controller' => 'users', 'action' => 'login']); ?></li>
-            <?php endif; ?>
+
         </ul>
     </div>
 </nav>
