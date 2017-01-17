@@ -32,6 +32,7 @@ class ContactsController extends AppController {
     }
 
     public function confirm() {
+        // セッションが空ならリダイレクト
         if (!$this->Session->read('data')) {
             $this->redirect(array('action' => 'contact'));
         }
