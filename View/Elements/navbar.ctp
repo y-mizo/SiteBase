@@ -22,10 +22,12 @@
         </ul>
 
         <!--dropdown list-->                  
-        <ul class="nav navbar-nav navbar-right">    
-            
-                <li><?= $this->Html->link('Login', ['controller' => 'users', 'action' => 'login']); ?></li>
-
+        <ul class="nav navbar-nav navbar-right">
+            <?php if ($currentUser) : ?>
+                <li><?= $this->Html->link('管理画面へ', ['controller' => 'admins', 'action' => 'index']); ?></li>
+            <?php else : ?>
+                <li><?= $this->Html->link('ログイン', ['controller' => 'users', 'action' => 'login']); ?></li>
+            <?php endif; ?>
         </ul>
     </div>
 </nav>

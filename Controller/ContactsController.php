@@ -1,5 +1,5 @@
 <?php
-
+App::uses('AppController', 'Controller');
 // CakeEmail の場所を指定
 App::uses('CakeEmail', 'Network/Email');
 
@@ -8,6 +8,7 @@ class ContactsController extends AppController {
     public $components = ['Session'];
 
     public function beforeFilter() {
+        parent::beforeFilter();
         $this->layout = 'basic';
         $this->Auth->allow('contact', 'confirm', 'complete');
     }
