@@ -15,7 +15,6 @@
     </tr>
 </table>
 <!--</div>-->
-<?php echo $this->Form->input('戻る', ['name' => 'back', 'controller' => 'contacts', 'type' => 'submit', 'label' => false]); ?>
+<?php echo $this->Html->link('back', ['controller' => 'contacts', 'action' => 'contact']); ?>
 <?php echo $this->Form->input('送信する', ['name' => 'send', 'controller' => 'contacts', 'type' => 'submit', 'label' => false]); ?>
-<?php
-echo $this->Form->end();
+<?php echo $this->Form->end(); ?>
