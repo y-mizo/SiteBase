@@ -9,7 +9,7 @@ class ContactsController extends AppController {
 
     public function beforeFilter() {
         parent::beforeFilter();
-        $this->layout = 'basic';
+        $this->layout = 'default';
         $this->Auth->allow('contact', 'confirm', 'complete');
     }
 
@@ -17,7 +17,7 @@ class ContactsController extends AppController {
         if ($this->request->is('post')) {
             $this->Contact->set($this->request->data);
 
-            if (!$this->Contact->validates()) {
+            if (!$this->Contact->validates()) {               
                 return;
             }
             // TODO: フォームの内容をセッションに保存
