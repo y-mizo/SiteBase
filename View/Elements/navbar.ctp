@@ -1,5 +1,4 @@
 <nav class="navbar navbar-inverse navbar-fixed-top">
-
     <div class="navbar-header">
         <!--Logo-->
         <a class="navbar-brand" href="/">SiteBase</a>
@@ -20,8 +19,7 @@
             <li><?= $this->Html->link('Notices', ['controller' => 'notices', 'action' => 'index_front']); ?></li>
             <li><?= $this->Html->link('Contact', ['controller' => 'contacts', 'action' => 'contact']); ?></li>
         </ul>
-
-        <!--dropdown list-->                  
+             
         <ul class="nav navbar-nav navbar-right">
             <?php if ($currentUser) : ?>
                 <li><?= $this->Html->link('管理画面へ', ['controller' => 'admins', 'action' => 'index']); ?></li>
