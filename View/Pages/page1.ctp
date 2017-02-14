@@ -1,16 +1,4 @@
-<?php $this->start('css'); ?>
-    <style>
-        header.jumbotron {
-            background: url("../img/p1.jpg");
-        }
-    </style>
-<?php $this->end(); ?>
-
-<header class="jumbotron">
-    <div class="container">
-        <h1>Page1</h1>
-    </div>
-</header>
+<?php $this->assign('title', 'about'); ?>
 
 <div class="container main-content">
     <div class="row page">

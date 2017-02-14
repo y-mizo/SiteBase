@@ -1,11 +1,37 @@
-header.jumbotron {
-    background-position: center center;
+body{
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;  
     background-size: cover;
-    color: #fff;
+    background-attachment:fixed;    
+    font-family:"Roboto Slab" , Garamond , "Times New Roman" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
+}
+
+.navbar {
+    /*background-color: transparent;*/
+    background-color: rgba(0,0,0,0);
+    border-color: transparent;
+}
+
+.pagination>li>a, .pagination>.disabled>a{
+    background-color: transparent;
+    border: none;
+    color: black;
+}
+.pagination>.active>a {
+    background-color: black;
 }
 
 header.jumbotron.top {
-    padding-top: 200px;
+    color: white;
+    text-align: center;
+    background: url("../img/f1.jpg");
+    background-attachment:fixed;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 450px;
+    margin-top: -50px;
+    margin-bottom: 0px;
 }
 
 .row.page {
@@ -17,3 +43,46 @@ header.jumbotron.top {
     padding-left: 50px;
     /*padding-right: 50px;*/
 }
+
+.description {
+    padding: 0px;
+    background-color: white;
+}
+
+.description2 {
+    padding: 0px;
+    background-color: white;
+    margin-bottom: -20px;
+}
+
+.photoArea {
+    height: 400px;
+    background-image: url(../img/f2.jpg);
+    background-size: cover;
+
+}
+.photoArea2 {
+    height: 400px;
+    background-image: url(../img/f3.jpg);
+    background-size: cover;
+    
+}
+.photoArea3 {
+    height: 400px;
+    background-image: url(../img/f4.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.photoArea4 {
+    height: 600px;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../img/f5.jpg);
+    box-shadow: inset 0px 0px 500px rgba(0, 0, 0, 1),
+        inset 0px 0px 500px rgba(0, 0, 0, 1);
+}
+
+.textArea {
+    padding: 50px;
+}
+

@@ -20,8 +20,8 @@ class NoticesController extends AppController {
     
     public $components = [
         'Paginator' => [
-            'limit' => 5,
-            'order' => ['modified' => 'desc']
+            'limit' => 3,
+            'order' => ['created' => 'desc']
         ]
     ];
     

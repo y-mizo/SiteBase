@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>
-            SiteBase |
+            BrandName |
             <?php echo $this->fetch('title'); ?>
         </title>
         <?php
