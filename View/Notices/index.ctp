@@ -8,7 +8,6 @@
 <!--<div class="container">-->
     <div>
         <h1>お知らせ一覧</h1>
-        <p>お知らせは最終更新日時順でソートされます。</p>
             <?php if ($currentUser) : ?>
                 <?php echo $this->Html->link('お知らせを追加', array('action' => 'add'), ['class' => 'btn btn-success']); ?>
             <?php endif; ?>

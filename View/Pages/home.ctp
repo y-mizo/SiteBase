@@ -23,7 +23,7 @@
         </div>
         <div class="col-md-6 col-md-pull-6 textArea">
             <h1>Heading1</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget erat quam. Proin tempor vehicula mi, et rutrum magna semper non. Praesent consectetur tortor id dapibus rhoncus. Morbi pulvinar odio pretium, tempor dui et, cursus tellus. Vivamus placerat magna mattis, gravida quam ut, vehicula nisi. Nulla elementum sit amet mauris vitae bibendum. Phasellus vel semper nunc. Mauris eget varius leo, eget viverra mi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer placerat, arcu ut vestibulum venenatis, sem justo dictum eros, in congue libero ipsum ut odio. Vivamus fringilla fringilla porttitor. Donec ac ante luctus, mollis nisl eget, imperdiet diam. Vivamus et pellentesque urna, in pulvinar mi.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget erat quam. Proin tempor vehicula mi, et rutrum magna semper non. Praesent consectetur tortor id dapibus rhoncus. Morbi pulvinar odio pretium, tempor dui et, cursus tellus. Vivamus placerat magna mattis, gravida quam ut, vehicula nisi. Nulla elementum sit amet mauris vitae bibendum. Phasellus vel semper nunc. Mauris eget varius leo, eget viverra mi. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
         </div>       
     </div> <!--/.row-->
 
@@ -32,7 +32,7 @@
         </div>
         <div class="col-md-6 textArea">
             <h1>Heading2</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget erat quam. Proin tempor vehicula mi, et rutrum magna semper non. Praesent consectetur tortor id dapibus rhoncus. Morbi pulvinar odio pretium, tempor dui et, cursus tellus. Vivamus placerat magna mattis, gravida quam ut, vehicula nisi. Nulla elementum sit amet mauris vitae bibendum. Phasellus vel semper nunc. Mauris eget varius leo, eget viverra mi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer placerat, arcu ut vestibulum venenatis, sem justo dictum eros, in congue libero ipsum ut odio. Vivamus fringilla fringilla porttitor. Donec ac ante luctus, mollis nisl eget, imperdiet diam. Vivamus et pellentesque urna, in pulvinar mi.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget erat quam. Proin tempor vehicula mi, et rutrum magna semper non. Praesent consectetur tortor id dapibus rhoncus. Morbi pulvinar odio pretium, tempor dui et, cursus tellus. Vivamus placerat magna mattis, gravida quam ut, vehicula nisi. Nulla elementum sit amet mauris vitae bibendum. Phasellus vel semper nunc. Mauris eget varius leo, eget viverra mi. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
         </div>
     </div> <!--/.row-->
 
@@ -41,7 +41,7 @@
         </div>
         <div class="col-md-6 col-md-pull-6 textArea">
             <h1>Heading3</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget erat quam. Proin tempor vehicula mi, et rutrum magna semper non. Praesent consectetur tortor id dapibus rhoncus. Morbi pulvinar odio pretium, tempor dui et, cursus tellus. Vivamus placerat magna mattis, gravida quam ut, vehicula nisi. Nulla elementum sit amet mauris vitae bibendum. Phasellus vel semper nunc. Mauris eget varius leo, eget viverra mi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer placerat, arcu ut vestibulum venenatis, sem justo dictum eros, in congue libero ipsum ut odio. Vivamus fringilla fringilla porttitor. Donec ac ante luctus, mollis nisl eget, imperdiet diam. Vivamus et pellentesque urna, in pulvinar mi.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget erat quam. Proin tempor vehicula mi, et rutrum magna semper non. Praesent consectetur tortor id dapibus rhoncus. Morbi pulvinar odio pretium, tempor dui et, cursus tellus. Vivamus placerat magna mattis, gravida quam ut, vehicula nisi. Nulla elementum sit amet mauris vitae bibendum. Phasellus vel semper nunc. Mauris eget varius leo, eget viverra mi. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
         </div>     
     </div> <!--/.row-->
 
