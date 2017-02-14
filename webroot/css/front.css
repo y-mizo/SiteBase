@@ -6,12 +6,12 @@ body{
     font-family:"Roboto Slab" , Garamond , "Times New Roman" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
 }
 
-p {
+/*p {
     font-size: 20px;
-}
+}*/
 
 .navbar {
-    font-size: 20px;
+    /*font-size: 20px;*/
     /*background-color: transparent;*/
     background-color: rgba(0,0,0,0);
     border-color: transparent;
@@ -91,6 +91,6 @@ header.jumbotron.top {
     padding: 50px;
 }
 
-.container .text-muted {
+/*.container .text-muted {
     margin: 10px 0;
-}
+}*/
