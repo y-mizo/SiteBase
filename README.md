@@ -2,7 +2,7 @@
 
 ## 概要
 
-![概要](https://raw.githubusercontent.com/y-mizo/LoginBase/master/webroot/img/site_base.png)
+![概要](https://raw.githubusercontent.com/y-mizo/SiteBase/master/webroot/img/site_base.png)
 
 コーポレートサイトの雛形サイト。  
 XAMPP環境、CakePHP2.8.* で作成。
