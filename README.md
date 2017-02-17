@@ -18,7 +18,7 @@ XAMPP環境、CakePHP2.8.* で作成。
 ## インストール方法
 ```
 $ git clone https://github.com/y-mizo/SiteBase.git
-$ cd LoginBase
+$ cd SiteBase
 $ composer install
 ```
 
