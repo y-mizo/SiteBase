@@ -28,14 +28,14 @@
                     <?php foreach ($notices as $notice) : ?>
                         <tr>
                             <td>
-                                <?= $this->Time->format($notice['Notice']['created'], '%Y/%m/%d'); ?>
+                                <?= $this->Time->format(h($notice['Notice']['created']), '%Y/%m/%d'); ?>
                             </td>
 
                             <td>
-                                <?= $this->Time->format($notice['Notice']['modified'], '%Y/%m/%d'); ?>
+                                <?= $this->Time->format(h($notice['Notice']['modified']), '%Y/%m/%d'); ?>
                             </td>
                             <td>
-                                <?= $notice['Notice']['subject']; ?>
+                                <?= h($notice['Notice']['subject']); ?>
                             </td>
                             <td class="actions">
                             <?php if ($currentUser) : ?>
