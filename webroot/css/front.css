@@ -34,7 +34,7 @@ header.jumbotron.top {
     background-position: center center;
     background-size: cover;
     height: 100vh;
-    padding-top: 450px;
+    /*padding-top: 200px;*/
     margin-top: -50px;
     margin-bottom: 0px;
 }

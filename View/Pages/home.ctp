@@ -12,7 +12,7 @@
 
 <header class="jumbotron top">
     <div class="container">
-        <h1 style="font-size: 80px;">BRAND NAME</h1>
+        <!--<h1 style="font-size: 80px;">BRAND NAME</h1>-->
         <!--<p>ログインを必要とするサイトの雛形サイト(お知らせ+問い合わせページつき)</p>-->
     </div>
 </header>
