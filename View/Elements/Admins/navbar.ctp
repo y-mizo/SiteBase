@@ -2,7 +2,7 @@
 
     <div class="navbar-header">
         <!--Logo-->
-        <a class="navbar-brand" href="http://mizo.xsrv.jp/SiteBase/">BrandName</a>
+        <a class="navbar-brand" href="<?= $this->Html->url("/")?>">BrandName</a>
         <!--toggle button-->
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-content">
             <span class="icon-bar"></span>
