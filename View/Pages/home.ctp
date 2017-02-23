@@ -4,8 +4,8 @@
 <style>
     header.jumbotron {
 /*        background: url("../img/f1.jpg");*/
-        box-shadow: inset 0px 0px 800px rgba(0, 0, 0, 1),
-        inset 0px 0px 800px rgba(0, 0, 0, 1);
+        box-shadow: inset 0px 0px 500px rgba(0, 0, 0, 1),
+        inset 0px 0px 500px rgba(0, 0, 0, 1);
     }
 </style>
 <?php $this->end(); ?>
