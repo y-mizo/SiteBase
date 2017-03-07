@@ -82,6 +82,3 @@ $ Console/cake server -p 8000
 ...
 built-in server is running in http://YOUR_HOSTNAME:8000/
 ```
-
-
-
